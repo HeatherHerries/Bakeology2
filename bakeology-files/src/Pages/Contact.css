@@ -1,0 +1,474 @@
+.contact-us-section{
+      background-color: #9ca73f;
+      height: 180vh;
+
+}
+
+.contact-us-section img {
+      width: 35rem;
+      height: 35rem;
+      z-index: 2;
+      position: absolute;
+      margin-top: 20rem;
+      margin-left: 40rem;
+      filter: drop-shadow(5px 5px 10px #333);
+}     
+
+.brown-square {
+      background-color: #2c1f17;
+      width: 35rem;
+      height: 35rem;
+      z-index: 1;
+      position: absolute;
+      margin-top: 35rem;
+      margin-left: 20rem;
+      filter: drop-shadow(5px 5px 10px #333);
+}
+
+.text-container {
+      width: 23rem;
+      height: 2rem;
+      z-index: 3;
+      position: absolute;
+      margin-top: 55rem;
+      margin-left: 15rem;
+}
+
+.text-container h1 {
+      color: #eee6c8;
+      font-size: 4rem;
+      text-align: center;
+}
+.get-in-touch-section{
+      background-color: #9ca73f;
+      height: 150vh;
+}
+
+.get-in-touch-card {
+      background-color: #385211;
+      height: 35rem;
+      width: 35rem;
+      z-index: 1;
+      position: absolute;
+      margin-top: 5rem;
+      margin-left: 35rem;
+      filter: drop-shadow(5px 5px 10px #333);
+}
+
+.green-square form {
+      text-align: center;
+}
+
+
+.get-in-touch-title {
+      color: #f7eeab;
+      text-align: center;
+      padding-top: 2rem;
+}
+
+.get-in-touch-subtitle {
+      color: #f7eeab;
+      text-align: center;
+      padding-top: 1rem;
+}
+
+.name input {
+      margin: 2rem 1rem 1rem 1rem;
+      padding: .7rem;
+      width: 30rem;
+      background-color: #f7eeab;
+      border: none;
+      border-radius: 4px;
+      filter: drop-shadow(5px 5px 10px #333);
+}
+
+.email input {
+      margin: 1rem;
+      padding: .7rem;
+      width: 30rem;
+      background-color: #f7eeab;
+      border: none;
+      border-radius: 4px;
+      filter: drop-shadow(5px 5px 10px #333);
+}
+
+.message textarea {
+      margin: 1rem;
+      padding: .7rem;
+      width: 30rem;
+      background-color: #f7eeab;
+      border: none;
+      border-radius: 4px;
+      filter: drop-shadow(5px 5px 10px #333);
+}
+
+.get-in-touch-submit {
+      background-color: #f7eeab;
+      color: #2c1f17;
+      padding: 1rem 2rem;
+      font-size: 17px;
+      border: none;
+      filter: drop-shadow(5px 5px 10px #333);
+      transition: all .5s ease-in-out;
+}
+
+.get-in-touch-submit:hover {
+      background-color: #9ca73f;
+      cursor: pointer;
+      transform: scale(1.1);
+}
+
+.brown-rectangle {
+      background-color: #2c1f17;
+      width: 18rem;
+      height: 30rem;
+      z-index: 2;
+      position: absolute;
+      margin-top: 15rem;
+      margin-left: 18rem;
+      filter: drop-shadow(5px 5px 10px #333);
+}
+
+.contact-us-title {
+      color: #9ca73f;
+      text-align: center;
+      padding: 3rem 2rem;
+}
+
+.contact-us-address {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      color: #9ca73f;
+      padding-bottom: 3.5rem;
+      padding-left: 2rem;
+}
+
+.contact-us-address i {
+      font-size: 3rem;
+      padding-right: 2.5rem;
+}
+
+.contact-us-phone {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      color: #9ca73f;
+      padding-bottom: 3.5rem;
+      padding-left: 1.8rem;
+}
+
+.contact-us-phone i {
+      font-size: 3rem;
+      padding-right: 2rem;
+}
+
+.contact-us-email {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      color: #9ca73f;
+      padding-left: 1.8rem;
+}
+
+.contact-us-email i {
+      font-size: 3rem;
+      padding-right: 2rem;
+}
+
+.subscribe-section{
+      background-color: #2c1f17;
+      height: 40vh;
+
+}
+
+.subscribe-section-title {
+      color: #eee6c8;
+      text-align: center;
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+}
+
+.subscribe-section-subtitle {
+      color: #9ca73f;
+      text-align: center;
+      padding-bottom: 2rem;
+}
+
+.subscribe-section form {
+      text-align: center;
+}
+
+.subscribe-section-input {
+      background-color: #f7eeab;
+      width: 40rem;
+      border: none;
+      border-radius: 4px;
+      padding: .7rem;
+}
+
+.subscribe-section-button {
+      background-color: #9ca73f;
+      color: #2c1f17;
+      border: none;
+      border-radius: 4px;
+      padding: .6rem 1.5rem;
+      font-size: 17px;
+      transition: all .5s ease-in-out;
+}
+
+.subscribe-section-button:hover {
+      background-color: #385211;
+      cursor: pointer;
+      transform: scale(1.1);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+      .contact-us-section{
+            height: 120vh;
+      }
+
+      .contact-us-section img {
+            width: 25rem;
+            height: 25rem;
+            margin-top: 10rem;
+            margin-left: 20rem;
+      }     
+      
+      .brown-square {
+            width: 25rem;
+            height: 25rem;
+            margin-top: 23rem;
+            margin-left: 11rem;
+            filter: drop-shadow(5px 5px 10px #333);
+      }
+
+      .text-container {
+            width: 20rem;
+            height: 1.5rem;
+            margin-top: 40rem;
+            margin-left: 3rem;
+      }
+
+      .text-container h1 {
+            font-size: 2.5rem;
+      }
+
+      .get-in-touch-section{
+            height: 110vh;
+      }
+
+      .get-in-touch-card {
+            height: 30rem;
+            width: 30rem;
+            margin-left: 15rem;   
+      }
+
+      .get-in-touch-title {
+            padding-top: 1.5rem;
+            font-size: 22px;
+      }
+
+      .get-in-touch-subtitle {
+            padding-top: .5rem;
+            font-size: 17px;
+      }
+
+      .name input {
+            margin-top: 1rem;
+            width: 25rem;
+      }
+
+      .email input {
+            margin-top: .5rem;
+            width: 25rem;  
+      }
+
+      .message textarea {
+            margin-top: .5rem;
+            width: 25rem;
+            }
+            
+      .brown-rectangle {
+            width: 13rem;
+            height: 22rem;
+            margin-top: 17rem;
+            margin-left: 3rem;
+            filter: drop-shadow(5px 5px 10px #333);
+      }
+
+      .contact-us-title {
+            font-size: 22px;
+            padding: 1.5rem 2rem;
+      }
+
+      .contact-us-address {
+            font-size: 13px;
+            padding-bottom: 2.5rem;
+            padding-left: 1rem;
+      }
+      
+      .contact-us-address i {
+            font-size: 2rem;
+            padding-right: 1rem;
+      }
+
+      .contact-us-phone {
+            font-size: 13px;
+            padding-bottom: 2.5rem;
+            padding-left: 1rem;
+      }
+      
+      .contact-us-phone i {
+            font-size: 2rem;
+            padding-right: 1rem;
+      }
+
+      .contact-us-email {
+            font-size: 13px;
+            padding-bottom: 2.5rem;
+            padding-left: 1rem;
+      }
+      
+      .contact-us-email i {
+            font-size: 2rem;
+            padding-right: 1rem;
+      }
+}
+
+@media (max-width: 767px) {
+      .contact-us-section{
+            height: 90vh;
+      }
+
+      .contact-us-section img {
+            width: 20rem;
+            height: 20rem;
+            margin-top: 5rem;
+            margin-left: 10rem;
+      }     
+      
+      .brown-square {
+            width: 20rem;
+            height: 20rem;
+            margin-top: 14rem;
+            margin-left: 4rem;
+      }
+
+      .text-container {
+            width: 15rem;
+            height: 1rem;
+            margin-top: 28rem;
+            margin-left: .6rem;
+      }
+
+      .text-container h1 {
+            font-size: 2rem;
+      }
+
+      .get-in-touch-section{
+            height: 145vh;
+      }
+
+      .get-in-touch-card {
+            height: 30rem;
+            width: 30rem;
+            margin-left: .6rem;   
+      }
+
+      .get-in-touch-title {
+            padding-top: 1.5rem;
+            font-size: 22px;
+      }
+
+      .get-in-touch-subtitle {
+            padding-top: .5rem;
+            font-size: 17px;
+      }
+
+      .name input {
+            margin-top: 1rem;
+            width: 25rem;
+      }
+
+      .email input {
+            margin-top: .5rem;
+            width: 25rem;  
+      }
+
+      .message textarea {
+            margin-top: .5rem;
+            width: 25rem;
+            }
+            
+      .brown-rectangle {
+            width: 30rem;
+            height: 26rem;
+            margin-top: 38rem;
+            margin-left: .6rem;
+      }
+
+      .contact-us-title {
+            font-size: 22px;
+            padding: 2.5rem 2rem;
+      }
+
+      .contact-us-address {
+            font-size: 15px;
+            padding-bottom: 2.5rem;
+            padding-left: 1rem;
+      }
+      
+      .contact-us-address i {
+            font-size: 4rem;
+            padding-left: 8rem;
+            padding-right: 3rem;
+      }
+
+      .contact-us-phone {
+            font-size: 15px;
+            padding-bottom: 2.5rem;
+            padding-left: 1rem;
+      }
+      
+      .contact-us-phone i {
+            font-size: 4rem;
+            padding-left: 8rem;
+            padding-right: 3rem;
+      }
+
+      .contact-us-email {
+            font-size: 15px;
+            padding-bottom: 2.5rem;
+            padding-left: 1rem;
+      }
+      
+      .contact-us-email i {
+            font-size: 4rem;
+            padding-left: 8rem;
+            padding-right: 3rem;
+      }
+
+      .subscribe-section{
+            background-color: #2c1f17;
+            height: 30vh;
+      
+      }
+      
+      .subscribe-section-title {
+            font-size: 20px;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+      }
+      
+      .subscribe-section-subtitle {
+            font-size: 16px;
+            padding-bottom: 1rem;
+      }
+      
+      .subscribe-section-input {
+            width: 20rem;
+            
+      }
+      
+}

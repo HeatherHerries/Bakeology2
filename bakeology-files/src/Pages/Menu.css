@@ -1,0 +1,53 @@
+.baked-goods-section {
+      background-color: #9ca73f;
+      height: 140vh;
+}
+
+.baked-goods-text {
+      color: #2c1f17;
+      text-align: center;
+      padding: 4rem 0 2rem 0;
+}
+
+.tarts-desserts-section {
+
+      background-color: #9ca73f;
+      min-height: 140vh;
+}
+
+.tarts-desserts-text {
+      color: #2c1f17;
+      text-align: center;
+      padding: 4rem 0 2rem 0;
+}
+
+.cakes-section {
+      background-color: #9ca73f;
+      min-height: 140vh;  
+      padding-bottom: 5rem;   
+}
+
+.cakes-text {
+      color: #2c1f17;
+      text-align: center;
+      padding: 4rem 0 2rem;
+}
+.pricing {
+      padding-bottom: 2rem;
+      font-size: 24px;
+      text-align: center;
+      color: #2c1f17;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+      .baked-goods-section {
+            height: 210vh;
+      }
+}
+
+@media (max-width: 767px) {
+      .baked-goods-section {
+            height: 395vh;
+      }
+
+}

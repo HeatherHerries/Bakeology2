@@ -1,0 +1,256 @@
+.our-story-section{
+      background-color: #93a73f;
+      min-height: 100vh;
+}
+
+.our-story-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10rem;
+      height: 50rem;
+      width: 60rem;
+      filter: drop-shadow(5px 5px 10px #333);
+      
+}
+
+.our-story-title {
+      text-align: center;
+      color: #2c1f17;
+      padding-top: 5rem;
+}
+
+.our-story-section p {
+      color:#2c1f17;
+      text-align: center;
+      padding-top: 3rem;
+      font-size: 22px;
+      padding-left: 8rem;
+      padding-right: 8rem;
+      line-height: 38px;
+}
+
+.last-paragraph {
+      padding-bottom: 5rem;
+}
+
+.values-section {
+      height: 130vh;
+      background-color: #2c1f17;
+      color:#eee6c8;
+}
+
+.values-section-title {
+      text-align: center;
+      padding: 5rem 0 3rem 0;
+}
+
+.values-section-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+}
+
+.values-community-section {
+      text-align: center;
+      padding-right: 3rem;
+}
+
+.values-community-section i {
+      font-size: 90px;
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+}
+
+.values-community-section p {
+      font-size: 22px;
+      line-height: 38px;
+}
+
+.values-health-section {
+      text-align: center;
+      padding-right: 3rem;
+}
+
+.values-health-section i {
+      font-size: 90px;
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+}
+
+.values-health-section p {
+      font-size: 22px;
+      line-height: 38px;
+}
+
+.values-equality-section {
+      text-align: center;
+}
+
+.values-equality-section i {
+      font-size: 90px;
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+}
+
+.values-equality-section p {
+      font-size: 22px;
+      line-height: 38px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+      .our-story-image {
+            padding-top: 5rem;
+            height: 30rem;
+            width: 30rem;
+      }
+
+      .our-story-title {
+            padding-top: 3rem;
+            font-size: 25px;
+      }
+
+      .our-story-section p {
+            padding-top: 1rem;
+            font-size: 18px;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            line-height: 38px;
+      }
+
+      .values-section {
+            height: 100vh;
+      }
+
+      .values-section-title {
+            font-size: 25px;
+            padding: 3rem 0 0 0;
+      }
+
+      .values-community-section h1 {
+            font-size: 22px;
+            
+      }
+      
+      .values-community-section i {
+            font-size: 70px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+      }
+      
+      .values-community-section p {
+            font-size: 18px;
+            line-height: 35px;
+      }
+
+      .values-health-section h1 {
+            font-size: 22px;
+            
+      }
+      
+      .values-health-section i {
+            font-size: 70px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+      }
+      
+      .values-health-section p {
+            font-size: 18px;
+            line-height: 35px;
+      }
+
+      .values-equality-section h1 {
+            font-size: 22px;
+            
+      }
+      
+      .values-equality-section i {
+            font-size: 70px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+      }
+      
+      .values-equality-section p {
+            font-size: 18px;
+            line-height: 35px;
+      }
+}  
+
+@media (max-width: 767px) {
+      .our-story-image {
+            padding-top: 3rem;
+            height: 20rem;
+            width: 20rem;
+      }
+
+      .our-story-title {
+            padding-top: 1.5rem;
+            font-size: 20px;
+      }
+
+      .our-story-section p {
+            padding-top: .5rem;
+            font-size: 15px;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            line-height: 38px;
+      }
+
+      .values-section {
+            height: 100vh;
+      }
+
+      .values-section-title {
+            font-size: 20px;
+            padding: 2.5rem 0 0 0;
+      }
+
+      .values-community-section h1 {
+            font-size: 18px;
+            
+      }
+      
+      .values-community-section i {
+            font-size: 60px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+      }
+      
+      .values-community-section p {
+            font-size: 13px;
+            line-height: 25px;
+      }
+
+      .values-health-section h1 {
+            font-size: 18px;
+            
+      }
+      
+      .values-health-section i {
+            font-size: 60px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+      }
+      
+      .values-health-section p {
+            font-size: 13px;
+            line-height: 25px;
+      }
+
+      .values-equality-section h1 {
+            font-size: 18px;
+            
+      }
+      
+      .values-equality-section i {
+            font-size: 60px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+      }
+      
+      .values-equality-section p {
+            font-size: 13px;
+            line-height: 25px;
+      }
+}

@@ -1,0 +1,167 @@
+.footer-container{
+  background-color: #385211;
+  color: #eee6c8;
+ }
+
+ .footer-content {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  }
+
+ .footer-content:after {
+  content: "";
+  display: block;
+  width: 50rem;
+  height: 2px;
+  background: #eee6c8;
+  position: absolute;
+  left: 22%;
+  top: 95%;
+ }
+
+ .logo-container {
+  height: 10rem;
+  width: 10rem;
+  min-height: 10rem;
+  min-width: 10rem;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  
+ }
+
+ .logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+
+ }
+
+ .contact-details {
+  margin: 1rem;
+  padding: 1rem;
+ }
+
+.contact-details ul{
+  list-style: none;
+  
+ }
+
+ .footer-nav{
+  margin: 1rem;
+  padding: 1rem;
+  
+ }
+
+
+ .footer-nav ul {
+  list-style: none;
+ }
+
+ .footer-nav a {
+  color: #eee6c8;
+  
+ }
+
+.footer-home {
+  transition: all .5s ease-in-out;
+}
+
+.footer-nav .footer-home:hover {
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+ .footer-menu {
+  transition: all .5s ease-in-out;
+}
+ .footer-nav .footer-menu:hover {
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+ .footer-about {
+  transition: all .5s ease-in-out;
+}
+ .footer-nav .footer-about:hover {
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+ .footer-contact {
+  transition: all .5s ease-in-out;
+}
+ .footer-nav .footer-contact:hover {
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+
+ .social-icons {
+  margin: 1rem;
+  padding: 1rem;
+  margin-right: 3rem;
+ }
+
+ .social-icons ul {
+  list-style: none;
+ }
+
+ .social-icons i {
+  font-size: 2.4rem;
+  filter: drop-shadow(5px 5px 10px #333);
+ }
+
+ .footer-facebook {
+  transition: all .5s ease-in-out;
+ }
+ .social-icons .footer-facebook:hover{
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+ .footer-instagram {
+  transition: all .5s ease-in-out;
+ }
+ .social-icons .footer-instagram:hover{
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+ .footer-twitter {
+  transition: all .5s ease-in-out;
+ }
+ .social-icons .footer-twitter:hover{
+  color: #9ca73f;
+  cursor: pointer;
+  transform: scale(1.5);
+ }
+
+ .copyright {
+  text-align: center;
+  padding: 2rem;
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) {
+  .footer-content:after {
+    width: 28rem;
+    left: 22%;
+   }
+ }
+
+ @media (max-width: 767px) {
+  .footer-content:after {
+    width: 13rem;
+    left: 29%;
+    top: 95%;
+   }
+ }

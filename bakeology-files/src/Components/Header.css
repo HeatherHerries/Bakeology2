@@ -1,0 +1,67 @@
+.header-container {
+  background-color: #385211;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 3rem;
+  color: #eee6c8;
+}
+
+.nav-image {
+  list-style: none;
+  margin-right: auto;
+  margin-left: 3rem;
+}
+
+.nav-image:before {
+  content: '';
+  display:inline-block;
+  height: 12rem;
+  width: 12rem;
+  background-image: url('/Users/heatherherries/Desktop/Bakeology/bakeology-files/src/Assets/Images/BakeologyLogoLight.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-home {
+  transition: all .5s ease-in-out;
+}
+
+.nav-home:hover {
+  color: #9ca73f;
+  transform: scale(1.5);
+}
+
+.nav-menu {
+  transition: all .5s ease-in-out;
+}
+
+.nav-menu:hover {
+  color: #9ca73f;
+  transform: scale(1.5);
+}
+
+.nav-about {
+  transition: all .5s ease-in-out;
+}
+
+.nav-about:hover {
+  color: #9ca73f;
+  transform: scale(1.5);
+}
+
+.nav-contact {
+  transition: all .5s ease-in-out;
+}
+
+.nav-contact:hover {
+  color: #9ca73f;
+  transform: scale(1.5);
+}
